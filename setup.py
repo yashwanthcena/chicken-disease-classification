@@ -18,7 +18,7 @@ setuptools.setup(
     author_email=AUTHOR_EMAIL,
     description="A small Python Package for CNN app",
     long_description=long_description,
-    long_description_content= "text/markdown",
+    #long_description_content= "text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
